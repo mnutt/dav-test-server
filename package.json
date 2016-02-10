@@ -1,0 +1,27 @@
+{
+  "name": "dav-test-server",
+  "version": "1.0.0",
+  "description": "for testing webdav commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mnutt/dav-test-server.git"
+  },
+  "keywords": [
+    "webdav"
+  ],
+  "author": "Michael Nutt <michael@nutt.im>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnutt/dav-test-server/issues"
+  },
+  "homepage": "https://github.com/mnutt/dav-test-server#readme",
+  "dependencies": {
+    "asyncjs": "git://github.com/fjakobs/async.js.git#bd61b6ae2cd7",
+    "jsDAV": "^0.3.4"
+  }
+}
